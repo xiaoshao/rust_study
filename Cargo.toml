@@ -14,3 +14,4 @@ arrow-format = { version = "0.7.0", features = ["flight-data", "flight-service",
 futures = "0.3.24"
 parquet2 = { version = "0.16.3", default_features = false }
 tracing = "0.1.36"
+crossbeam = "0.8.2"

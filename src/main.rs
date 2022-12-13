@@ -1,6 +1,9 @@
-mod parquet_demo;
-use parquet_demo::parquetDemo;
+mod arc_demo;
+mod thread_scope;
 
+use arc_demo::arc_demo;
 fn main() {
-    parquetDemo();
+    arc_demo();
+
+    thread_scope::thread_scope()
 }
