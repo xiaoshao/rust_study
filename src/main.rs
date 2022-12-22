@@ -1,9 +1,6 @@
-mod arc_demo;
-mod thread_scope;
+mod option_op;
 
-use arc_demo::arc_demo;
 fn main() {
-    arc_demo();
 
-    thread_scope::thread_scope()
+    option_op::option_op();
 }
