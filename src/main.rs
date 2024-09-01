@@ -1,6 +1,7 @@
 mod option_op;
 
 pub mod test_trait;
+pub mod test_iterator;
 fn main() {
     let hello = String::from("hello world");
 
