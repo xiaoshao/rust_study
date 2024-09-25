@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-arrow = { package = "arrow2", version = "0.14.0", default-features = false, features = [
+arrow = { package = "arrow2", version = "0.18.0", default-features = false, features = [
     "io_parquet",
     "io_parquet_compression",
 ] }
@@ -18,3 +18,5 @@ crossbeam = "0.8.2"
 opendal = { version = "0.19", features = ["layers-retry", "compress"] }
 rand = "0.3.17"
 tokio = { version = "1", features = ["full"] }
+datafusion = "42.0.0"
+tokio-test = "0.4.4"

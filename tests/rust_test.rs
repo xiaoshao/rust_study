@@ -1,4 +1,5 @@
 mod move_fn_test;
+mod datafusion_example;
 
 #[test]
 fn test(){
