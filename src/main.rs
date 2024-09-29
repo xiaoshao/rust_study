@@ -1,7 +1,17 @@
-mod option_op;
+use test_option_op::option_op;
 
 pub mod test_trait;
 pub mod test_iterator;
+
+pub mod test_macro;
+pub mod test_arc_demo;
+pub mod test_file_op;
+pub mod test_mutex_demo;
+pub mod test_option_op;
+
+pub mod test_parquet_demo;
+pub mod test_thread_scope;
+
 fn main() {
     let hello = String::from("hello world");
 
